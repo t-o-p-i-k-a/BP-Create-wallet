@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AAV": {
+            "caption": "api_key",
+            "type": "secure"
+        },
+        "AAW": {
+            "caption": "private_key",
+            "type": "secure"
+        }
+    }
+}

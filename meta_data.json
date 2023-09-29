@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "payment"
+    },
+    "license": "private",
+    "name": "Tron wallet creator",
+    "sa_node_version": 18
+}

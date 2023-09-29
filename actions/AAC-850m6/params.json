@@ -1,0 +1,20 @@
+{
+    "category": "plugins",
+    "display": "Create a wallet",
+    "return_value": {
+        "AAR": {
+            "caption": "address",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "privateKey",
+            "name": "privateKey",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
