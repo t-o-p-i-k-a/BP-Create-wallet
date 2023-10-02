@@ -3,7 +3,10 @@
         "0": "data (things)",
         "1": "payment"
     },
-    "license": "private",
+    "description": "The plugin has one step with which:\n- Creates a wallet address\n- Generates a private key\n- Activates the wallet (for this action you will need an already activated account)\n- Signs the transaction\n- Sends the transaction to the Tron network\n\nAfter completing the step, you have the address and private key of your wallet.\n\nIf necessary, you can copy and modify the plugin.\n\nThe plugin was created in accordance with the Tron documentation: https://developers.tron.network/docs/getting-start.",
+    "image": "//meta-l.cdn.bubble.io/f1695989180216x365842985779423600/Wallet%20creator.png",
+    "license": "open_source",
     "name": "Tron wallet creator",
+    "plugin_instructions": "For the plugin to work:\n- Add the API key to the api_key field (get the API key from https://www.trongrid.io/).\n- Add the private key of your Tron wallet to the private_key field\n\nUse the \"Create a wallet\" action from the plugins section in your workflow",
     "sa_node_version": 18
 }

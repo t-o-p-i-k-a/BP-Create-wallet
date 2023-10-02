@@ -1,5 +1,5 @@
-      function(properties, context) {
-        const TronWeb = require('tronweb');
+async function(properties, context) {
+    const TronWeb = require('tronweb');
     const tronWeb = new TronWeb({
         fullHost: 'https://api.trongrid.io',
         headers: { "TRON-PRO-API-KEY": context.keys.api_key},
